@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    background-color: #519E8a;
+}
+
+h1, h2{
+    text-align: center;
+    color:white
+    
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+.menus ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu a::after {
+    display: inline-block;
+    color: #000;
+    content: ' ';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+main {
+    background-color: #7EB09B;
+}
+
+/* color palette (dark to light)
+#476A6F
+#519E8A
+#7EB09B
+#C5C9A4
+#ECBEB4
