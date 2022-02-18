@@ -28,6 +28,28 @@ main {
     text-align: center;
 }
 
+.why p {
+    line-height: 1.5;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C5C9A4;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+td, th {
+    padding: 10px;
+}
+
+#credentials {
+    text-align: right;
+}
+
 /* color palette (dark to light)
 #476A6F
 #519E8A
