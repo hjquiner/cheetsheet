@@ -15,29 +15,17 @@ h1, h2{
 
 nav {
     border-bottom: 1px solid black;
-}
-
-.menus ul {
-    list-style-type: none;
-    padding-left: 0;
     text-align: center;
 }
 
-.menu {
+.menu li{
     display: inline-block;
-}
-
-.menu a::after {
-    display: inline-block;
-    color: #000;
-    content: ' ';
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 3px;
+    padding: 10px;
 }
 
 main {
     background-color: #7EB09B;
+    text-align: center;
 }
 
 /* color palette (dark to light)
